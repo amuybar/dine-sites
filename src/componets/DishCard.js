@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import OrderPopup from './OrderPopup';
-import axios from 'axios';
+
 
 import '../css/DishCard.css';
 
