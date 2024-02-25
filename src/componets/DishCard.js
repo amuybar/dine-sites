@@ -15,24 +15,6 @@ function DishCard({ name, description, price, image }) {
     setShowOrderPopup(false);
   };
 
-  const sendOrder = async () => {
-    try {
-      // Make an HTTP POST request to your backend API
-      const response = await axios.post('http://localhost:3004/api/orders', {
-        name,
-        price,
-        description,
-        image,
-      });
-
-      // Handle successful response (e.g., show a success message)
-      console.log('Order sent successfully:', response.data);
-    } catch (error) {
-      // Handle error (e.g., show an error message)
-      console.error('Error sending order:', error);
-    }
-  };
-
   return (
     <div className='fragment'>
       <div className="dish-card">

@@ -4,10 +4,11 @@ import './../css/Navigation.css';
 function Navigation() {
   return (
     <nav className='navbar'>
-      <a href="#">Home</a>
-      <a href="#">Menu</a>
-      <a href="#">About Us</a>
-      <a href="#">Contact</a>
+
+      <a href="#c">Home</a>
+      <a href="#d">Deal of the Day</a>
+      <a href="#m">Menu</a>
+      <a href="#a">About Us</a>
     </nav>
   );
 }

@@ -12,18 +12,18 @@ function Carousel() {
     }, []);
   
     return (
-        <><div className="carousel-container">
+        <><div id='c' className="carousel-container">
 
             <div className="slide" style={{ transform: `translateX(-${activeSlide * 100}%)` }}>
-                <img src="images/heropa.png" alt="Image 1" />
+                <img src="images/heropa.png" alt="" />
             </div>
             <div className="slide" style={{ transform: `translateX(-${activeSlide * 100}%)` }}>
-                <img src="images/hero3.png" alt="Image 2" />
+                <img src="images/hero3.png" alt="" />
             </div>
             <div className="slide" style={{ transform: `translateX(-${activeSlide * 100}%)` }}>
-                <img src="images/hero4.png" alt="Image 3" />
+                <img src="images/hero4.png" alt="" />
             </div>
-            {/* Add more slide divs with additional images */}
+           
         </div><div className="carousel-content">
                 <h2>Discover a Unique Dining Experience</h2>
                 <p>Explore our diverse menu and indulge in a culinary journey that will delight your senses.</p>

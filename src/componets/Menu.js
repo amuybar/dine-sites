@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faChevronDown,  faSearchPlus, } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faChevronDown} from '@fortawesome/free-solid-svg-icons';
 
 import MenuCard from './MenuCard';
 import foodItems from './AllFood'; // Assuming you have defined foodItems
@@ -17,7 +17,7 @@ function Menu() {
   };
 
   return (
-    <div className='menu-'>
+    <div id='m' className='menu-'>
       <div><h2>Menu</h2>
       
     </div>

@@ -13,7 +13,7 @@ function DealoftheDay() {
     />
   ));
   return (
-    <section className="stack-description">
+    <section id='d' className="stack-description">
       <h2>Deals Of The Day</h2>
       <div className="dish-list">
       {renderedFoodItems}
