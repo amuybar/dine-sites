@@ -1,0 +1,45 @@
+/* StackDescription.css */
+
+.stack-description {
+    margin-top: 20px; /* Add margin at the top */
+    padding: 20px; /* Add padding to the container */
+    background-color: #242222; /* Set background color */
+    border-radius: 5px; /* Add border radius */
+    overflow-x: auto;
+  }
+  .stack-description h2 {
+    color: aliceblue;
+    text-decoration-style: wavy;
+    font-size: 30px;
+  }
+
+  .stack-description p {
+    color: rgb(250, 250, 250);
+  }
+  .dish-list {
+    display: inline-flex; /* Display dish cards in a row */
+    padding: 10px; /* Add padding to each dish card */
+  }
+  
+  @media screen and (max-width: 768px) {
+   
+.stack-description {
+  margin-top: 20px; /* Add margin at the top */
+  padding: 20px; /* Add padding to the container */
+  background-color: #242222; /* Set background color */
+  border-radius: 5px; /* Add border radius */
+  overflow-x:hidden;
+}
+  }
+  
+  /* Media query for even smaller screens */
+  @media screen and (max-width: 480px) {
+   
+.stack-description {
+  margin-top: 20px; /* Add margin at the top */
+  padding: 20px; /* Add padding to the container */
+  background-color: #242222; /* Set background color */
+  border-radius: 5px; /* Add border radius */
+  overflow-x:hidden;
+}
+  }

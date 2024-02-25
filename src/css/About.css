@@ -1,0 +1,49 @@
+/* About.css */
+
+.about {
+    display: flex;
+    padding: 20px;
+  }
+  .about-p{
+    color: azure;
+    width: 50%;
+  }
+  
+  .map {
+    margin: 20px;
+    width: 50%;
+  }
+  
+  /* Media query for even smaller screens */
+  @media screen and (max-width: 768px) {
+    
+.about {
+    display: block;
+    padding: 10px;
+  }
+  .about-p{
+    color: azure;
+    width: 100%;
+    
+  }
+  .map {
+    margin: 5px;
+    width: 100%;
+  }
+  }
+  @media screen and (max-width: 480px) {
+    
+    .about {
+        display: block;
+        padding: 10px;
+      }
+      .about-p{
+        color: azure;
+        width: 100%;
+        
+      }
+      .map {
+        margin: 5px;
+        width: 100%;
+      }
+      }

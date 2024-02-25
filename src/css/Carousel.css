@@ -1,0 +1,108 @@
+.carousel-container {
+    position: relative;
+    display: flex;
+    overflow-x: hidden; /* Hide overflowing content horizontally */
+    /* height: 300px; */
+    z-index: 0; 
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.carousel-content {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -30%);
+    font-size: 40px;
+    text-align: left;
+    color: white;
+    z-index: 2; /* Ensure content appears on top of the image */
+}
+.carousel-content button{
+    color: #000000;
+    background-color: #ffffff;
+    height: 50px; 
+    
+    margin: 10px;
+    font-size: 22px;
+}
+.carousel-content button:hover{
+    color: #0493f3;
+    background-color: #d6d6d6;
+    height: 40px; 
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 22px;
+}
+.carousel-content h2,
+.carousel-content p {
+    margin: 0;
+}
+@media screen and (max-width: 768px) {
+ 
+    .carousel-content {
+      position: absolute;
+      top: 20%;
+      left: 35%;
+      transform: translate(-50%, -30%);
+      font-size: 14px;
+      text-align: left;
+      color: rgb(255, 255, 255);
+      z-index: 2; /* Ensure content appears on top of the image */
+  }
+  .carousel-content button{
+      color: #fdfdfd;
+      background-color: #000000;
+      height: 30px; 
+      border-radius: 12px;
+      margin: 5px;
+      font-size: 18pxpx;
+  }
+   
+  }
+  
+  /* Media query for even smaller screens */
+  @media screen and (max-width: 480px) {
+    .carousel-content {
+      position: absolute;
+      top: 20%;
+      left: 35%;
+      transform: translate(-50%, -30%);
+      font-size: 14px;
+      text-align: left;
+      color: rgb(255, 255, 255);
+      z-index: 2; /* Ensure content appears on top of the image */
+  }
+  .carousel-content button{
+      color: #fdfdfd;
+      background-color: #000000;
+      height: 30px; 
+      border-radius: 12px;
+      margin: 5px;
+      font-size: 18pxpx;
+  }
+    
+  }
+
+.slide {
+    flex: 0 0 100%; /* Each slide takes up 100% width */
+  
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Define animation keyframes */
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

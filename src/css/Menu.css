@@ -1,0 +1,67 @@
+h2{
+  color: antiquewhite; 
+  font-size: 3vh;
+  margin: 2vh;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* Adjust as needed */
+}
+
+.menu-cards {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 20px; 
+}
+
+.menu-card-container {
+  width: 83%; 
+  padding: 20px;
+  background-color: #131212;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8); /* Elevate the card */
+  margin-bottom: 20px; /* Space between card and navigation arrows */
+}
+
+.menu-card {
+  display: flex;
+  width: 80%; 
+ 
+  margin-right: 20px; 
+  border: 0px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-card img {
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 8px 8px 0 0; 
+}
+
+.menu-card .menu-details {
+  padding: 10px;
+  color: cornsilk;
+  
+}
+
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  border-radius: 2vh;
+  font-size: 7vh; 
+  color: #1a1818; 
+  cursor: pointer;
+  outline: none; 
+}
+.arrow-button h3{
+  padding: 0px;
+  font-size: 30px;
+}

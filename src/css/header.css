@@ -1,0 +1,29 @@
+/* Header.css */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    text-align: left;
+    padding-left: 40px;
+    z-index: 1001; /* Higher stack order than navbar */
+    font-size: 24px; /* Default font size */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 20px; /* Decrease font size for smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  header {
+    font-size: 18px; /* Further decrease font size for even smaller screens */
+  }
+}

@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import React from 'react';
+
+import '../src/css/App.css'
+import '../src/css/header.css'
+import Carousel from './componets/Couresol'
+import DealoftheDay from './componets/DealoftheDay';
+import Navigation from './componets/Navigation';
+import Footer from './componets/Footer';
+import Menu from './componets/Menu';
+import About from './componets/About';
+import Rsv from './componets/resv';
+import YourCombo from './componets/YourCombo';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Thika Dine Space</h1>
       </header>
+      <Navigation />
+      <Carousel />
+      <DealoftheDay />
+      <YourCombo/>
+       <Menu/>
+       <About/>
+      <Footer />
+      <Rsv/>
     </div>
   );
 }
